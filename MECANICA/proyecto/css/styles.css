@@ -1,0 +1,28 @@
+/* Estilos propios */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  scroll-margin-top: 20px;
+}
+
+/* Altura del carrusel */
+.img-carrusel {
+  height: 380px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Alertas sin animacion */
+.swal2-popup, .swal2-popup * {
+  animation: none !important;
+  transition: none !important;
+}
+.swal2-icon.swal2-success [class^='swal2-success-circular-line'],
+.swal2-icon.swal2-success .swal2-success-fix {
+  display: none !important;
+}
